@@ -8,4 +8,5 @@ public class FuelDTO {
     private String type;
     private String description;
     private Double price;
+    private String logo;
 }

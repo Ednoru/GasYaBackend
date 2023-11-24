@@ -20,4 +20,7 @@ public class Fuel {
 
     @Column(name = "price", nullable = false)
     private Double price;
+
+    @Column(name = "logo", nullable = false)
+    private String logo;
 }
