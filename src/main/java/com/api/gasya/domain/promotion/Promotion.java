@@ -18,4 +18,7 @@ public class Promotion {
 
     @Column(name = "description", nullable = false)
     private String description;
+
+    @Column(name = "img", nullable = false)
+    private String img;
 }
